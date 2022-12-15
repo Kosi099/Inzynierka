@@ -1,0 +1,77 @@
+<header class="header">
+    <h1>Edukacyjna strona internetowa dla dzieci wczesnoszkolnych</h1>
+</header>
+<div style="text-align: center;">
+    <a href="/Projekty/ProjektWWW/index.php/?idp=Ranking"; class="menu"; id="animacjaTestowa2" >Ranking</a>
+    <a href="/Projekty/ProjektWWW/index.php/?idp=Ciekawostki"; class="menu"; id="animacjaTestowa3" >Gry edukacyjne</a>
+    <a href="/Projekty/ProjektWWW/index.php/?idp=Filmy"; class="menu"; id="animacjaTestowa5" >Quizy</a>
+    <a href="/Projekty/ProjektWWW/index.php/?idp=Kontakt"; class="menu"; id="animacjaTestowa2" >Informacje</a>
+</div>
+<div style="text-align: center;"><img src="Obrazki/Stronaglowna/Gra.jpg" width="1080" height="720"></div>
+<!--<div style="text-align: center;"><img src="Obrazki/Stronaglowna/Most3.jpg" width="1080" height="720"></div>-->
+<!--<div style="text-align: center;"><img src="Obrazki/Stronaglowna/Most4.jpg" width="1080" height="720"></div>-->
+<script>
+    $("#animacjaTestowa2").on({
+        "mouseover": function(){
+            $(this).animate({
+                width: 100
+            }, 600);
+        },
+        "mouseout": function(){
+            $(this).animate({
+                width: 70
+            }, 800);
+        }
+    })
+</script>
+<script>
+    $("#animacjaTestowa3").on({
+        "mouseover": function(){
+            $(this).animate({
+                width: 250
+            }, 600);
+        },
+        "mouseout": function(){
+            $(this).animate({
+                width: 200
+            }, 800);
+        }
+    })
+</script>
+<script>
+    $("#animacjaTestowa5").on({
+        "mouseover": function(){
+            $(this).animate({
+                width: 200
+            }, 600);
+        },
+        "mouseout": function(){
+            $(this).animate({
+                width: 170
+            }, 800);
+        }
+    })
+</script>
+<!--<div id="animacjaTestowa4" class="test-block">Spraw bym zmienił swój kształt</div>-->
+<script>
+    $("#animacjaTestowa4").on("click", function(){ 
+        if (!$(this).is(":animated")) {
+            $(this).animate({
+                width: "+=" + 50,
+                height: "+=" + 10, 
+                opacity: "-=" + 0.1,
+                duration : 3000,
+            });
+        }
+    });    
+</script>
+<footer class="footer">
+    <div>
+        <a>Data: </a>
+        <div id="zegarek" style="display: inline;"></div>
+        <div id="data" style="display: inline;"></div> 
+        <a><br/></a>
+        <a>Strona stworzona przez</a>
+        <a href="mailto:kosiara099@wp.pl">Michała K.</a> 
+    </div>
+</footer>

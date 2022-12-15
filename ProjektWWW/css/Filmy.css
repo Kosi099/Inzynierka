@@ -1,0 +1,25 @@
+header {
+    background-color: thistle;
+    border: 2px solid black;
+    text-align: center;
+}
+footer{
+    background-color: royalblue;
+    border: 2px solid black;
+    position: relative;
+    text-align: right;
+    padding: 20px;
+}
+body{
+    background-image: url(/Projekty/ProjektWWW/Obrazki/Filmy/Filmytlo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.question{
+    font-size: xx-large;
+    color: crimson;
+}
+.answer{
+    font-size: x-large;
+    color: black;
+}

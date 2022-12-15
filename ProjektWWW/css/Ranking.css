@@ -1,0 +1,26 @@
+header {
+    background-color: thistle;
+    border: 2px solid black;
+    text-align: center;
+}
+footer{
+    background-color: royalblue;
+    border: 2px solid black;
+    text-align: right;
+    position: relative;
+    padding: 20px;
+}
+.body{
+    background-image: url(/Projekty/ProjektWWW/Obrazki/Ranking/Most1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.lista{
+    font-weight: 1000;
+    font-size: xx-large;
+    color: crimson;
+}
+.wiecej{
+    font-size: medium;
+    text-decoration: none;
+}

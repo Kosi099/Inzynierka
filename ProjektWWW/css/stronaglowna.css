@@ -1,0 +1,51 @@
+header {
+    background-color: thistle;
+    border: 2px solid black;
+    text-align: center;
+}
+footer{
+    background-color: royalblue;
+    border: 2px solid black;
+    text-align: right;
+    padding: 20px;
+    position:absolute;
+    bottom:0;
+    width:97%;
+    /*height:60px;*/
+}
+.menu{
+    display: inline-block;
+    padding: 14px;
+    color: palevioletred;
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(253, 223, 223);
+    border: 2px solid black;
+    text-decoration: none;
+}
+body{
+    background-image: url(/Projekty/ProjektWWW/Obrazki/Stronaglowna/Most1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.test-block{
+    width:200px;
+    border:2px solid rgba(71,236,30, 1);
+    background: rgba(71,236,30,0.7);
+    text-align: center; color: #000;
+    color: #000;
+    padding:20px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.zalogowanyadmin{
+    color: aqua;
+    display: inline-block;
+}

@@ -1,0 +1,9 @@
+header {
+    background-color: thistle;
+    border: 2px solid black;
+    text-align: center;
+}
+.zalogowanyadmin{
+    color: aqua;
+    display: inline-block;
+}
