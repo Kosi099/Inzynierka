@@ -1,0 +1,14 @@
+
+body{
+    height: 100%;
+    font-size: 1rem;
+}
+
+.gradient{
+    background: rgb(57,48,209);
+    background: linear-gradient(180deg, rgba(57,48,209,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.page-header{
+    margin-top: 6rem;
+}
